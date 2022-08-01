@@ -10,7 +10,7 @@ t = Turtle()
 bgcolor("black")
 t.speed(10)
 
-SCALER = 5
+SCALER = 15
 ########## CONSTANTS BASED ON TECHNICAL SPECIFICATIONS; DON'T MODIFY ###########
 UNIT = 18
 RED = "#EE2536"
@@ -69,8 +69,7 @@ def draw_circle(radius, pen_colour=None, fill_colour=None, start=None):
         t.pu()
         t.goto(start)
     if pen_colour:
-        t.pencolor(pen_colour)    #pencolor somehow doesn't work
-        t.color(pen_colour)
+        t.pencolor(pen_colour)
     if fill_colour:
         t.fillcolor(fill_colour)
         t.begin_fill()
