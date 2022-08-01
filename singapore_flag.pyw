@@ -6,6 +6,7 @@ https://en.wikipedia.org/wiki/File:Construction_Sheet_of_the_Flag_of_Singapore.s
 from turtle import *
 
 setup(width = 1.0, height = 1.0)
+title("Singapore Flag")
 t = Turtle()
 bgcolor("black")
 t.speed(10)
