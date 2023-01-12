@@ -24,7 +24,6 @@ def draw_star(height, centre=None):
     for _ in range(VERTICES):
         t.fd(height)
         t.rt(2 * ANGLE)
-        t.dot()
 
 draw_star(500)
 done()
