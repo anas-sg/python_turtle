@@ -7,5 +7,7 @@ The classic '8 pointed star' typically found in Islamic architecture
 ## shapes
 Some common shapes
 
-## singapore_flag
-A drawing of the Singapore flag according to the technical specifications
+## country_flags
+The flags of the following countries according to the technical specifications (as far as possible):
+- Singapore
+- Ghana
